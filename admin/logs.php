@@ -29,6 +29,7 @@
                         <tr>
                         	<td>
                                 <select style="width:100%;" name="download" onChange="download(this.value)">
+                                <option>Selecione</option>
                                     <?php 
                                     foreach(new DirectoryIterator("logs/")  as $fileInfo)
                                     {
